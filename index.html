@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+    <h2>Rock Paper Scissor</h2>
+
+    
+    <div class="box">
+        <button id="rock" class="icon" onclick="pick('Rock')" type="button"><img src="rock.png" alt=""></button>
+        <button id="Paper" class="icon" onclick="pick('Paper')" type="button"><img src="paper.png" alt=""></button>
+        <button id="Scissor" class="icon" onclick="pick('Scissor')" type="button"><img src="scissor.png" alt=""></button>
+    </div>
+
+
+    <div class="dis">
+
+        <div id="you">
+            <button id="your" class="icon" >You</button>
+            <p class="yourscore">0</p>
+        </div>
+
+        <div class="img">
+            <img id="vs"
+                src="https://static.vecteezy.com/system/resources/previews/029/099/706/original/vs-battle-free-free-vector.jpg"
+                alt="" srcset="">
+        </div>
+
+        <div id="comp">
+            <button id="computer" class="icon">Computer</button>
+            <p class="compscore">0</p>
+        </div>
+
+    </div>
+
+    <div class="pa">
+    <button class="msg" type="button">Pick your Move!!</button>
+    </div>
+
+    <div id="re">
+        <button type="button" id="breset" onclick="reset()">Reset</button>
+    </div>
+
+
+    <script src="javascipt.js"></script>
+</div>
+</body>
+
+</html>
